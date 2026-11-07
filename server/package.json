@@ -1,0 +1,41 @@
+{
+  "name": "leiloes-server",
+  "version": "1.0.0",
+  "description": "API de imóveis de leilão",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "start": "tsx src/index.ts",
+    "build": "tsc",
+    "import": "tsx scripts/import.ts",
+    "import:caixa": "tsx scripts/import.ts caixa",
+    "import:bradesco": "tsx scripts/import.ts bradesco",
+    "import:santander": "tsx scripts/import.ts santander",
+    "import:bb": "tsx scripts/import.ts bb",
+    "import:emgea": "tsx scripts/import.ts emgea",
+    "import:inter": "tsx scripts/import.ts inter",
+    "import:banrisul": "tsx scripts/import.ts banrisul",
+    "import:sicredi": "tsx scripts/import.ts sicredi",
+    "import:freitas": "tsx scripts/import.ts freitas",
+    "import:superbid": "tsx scripts/import.ts superbid",
+    "import:spu": "tsx scripts/import.ts spu",
+    "import:receita": "tsx scripts/import.ts receita",
+    "import:lancenoleilao": "tsx scripts/import.ts lancenoleilao",
+    "import:resale": "tsx scripts/import.ts resale",
+    "import:mega": "tsx scripts/import.ts mega",
+    "import:zuk": "tsx scripts/import.ts zuk",
+    "import:vip": "tsx scripts/import.ts vip"
+  },
+  "dependencies": {
+    "@fastify/cors": "^10.0.1",
+    "csv-parse": "^5.6.0",
+    "fastify": "^5.2.0",
+    "iconv-lite": "^0.6.3",
+    "mongoose": "^8.9.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  }
+}
